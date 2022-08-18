@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(64, 71, 112);
+}
+#placeCalc {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#placeCalc #borderCalc {
+    background-color: rgb(212, 212, 212);
+    height: 565px;
+    width: 390px;
+    border-radius: 50px;
+    border-style: outset;
+    border-color: #000000;
+}
+#placeCalc #borderCalc .viewer {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #949494;
+    border-style: outset;
+    color: #000000;
+    float: left;
+    line-height: 3em;
+    text-align: center;
+    font-size: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-radius: 30px;
+    width: 360px;
+    height: 70px;
+}
+#placeCalc #borderCalc .clear{
+    margin-right: 250px;
+}
+
+button {
+    
+
+    background: rgba(42,50,113, .28);
+    margin-right: 30px;
+    color: #000000;
+    cursor: pointer;
+    float: left;
+    font: inherit;
+    margin: 0.9em;
+    width: 4em;
+    height: 4em;
+    transition: all 0.5s;
+    border-style: outset;
+
+
+  }
+  
+
